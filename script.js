@@ -25,7 +25,6 @@ async function weatherAt(town) {
   let { main, description } = weatherData.weather[0];
   let { country } = weatherData.sys;
 
-  container.style.backgroundImage = `url(./${main}.jpg)`;
   let celcius = Math.round(temp - 273.15);
   return {
     country,
