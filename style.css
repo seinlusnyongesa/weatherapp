@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.container {
+  width: 100vw;
+  height: calc(100vh - 5.5rem);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f8fafc;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-container {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding: 0.3rem;
+  border: 1px solid black;
+  outline: none;
+  flex: 1;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+form {
+  display: flex;
+  width: 40vw;
+}
+
+form button {
+  padding: 0.3rem;
+  width: 5rem;
+  border-radius: 0 0.4rem 0.4rem 0;
+  border: none;
+  background: #fb7185;
+}
+
+.main h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.main h3 {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.other ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.other ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other ul li h3 {
+  font-size: 30px;
+}
+
+.other ul li p {
+  font-size: 20px;
+}
